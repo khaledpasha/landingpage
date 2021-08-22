@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+body {
+  margin: 0;
+}
+
+/* --------------------   Topbar  ------------------------*/
+
+#logo {
+  margin-left: 24px;
+  width: 100px;
+}
+
+#topbar {
+  width: 100%;
+  height: 60px;
+  margin-right: 0%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-items {
+  color: lightgray;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-evenly;
+  margin: 28px;
+  font-weight: 600;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.menu-items:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #8071D0;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+}
+
+.account_button {
+  font-family: "Roboto", sans-serif;
+  border-style: none;
+  padding: 14px 24px;
+  border-radius: 20px;
+  margin-right: 24px;
+  background-color: #FFD8DB;
+  color: #A389CC;
+  cursor: pointer;
+}
+
+/*-------------------------  Main Section ---------------------------*/
+
+#main-section {
+  height: 550px;
+  margin: 0 auto;
+  padding: 0px 72px;
+  background-image: url("https://cdn.glitch.com/966c8129-1d4b-4308-81b0-c7de7193c7d7%2Flanding-section-image.png");
+  background-position-x: 80%;
+  background-repeat: no-repeat;
+  background-size: 45%;
+}
+
+#container {
+  width: 350px;
+  padding: 0px 12px;
+}
+
+.heading {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  padding-top: 16px;
+  font-size: 66px;
+}
+
+.stunning-para {
+  font-family: "Rubik", sans-serif;
+  color: grey;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+#square {
+  margin-left: -8px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #5243C0;
+}
+
+.arrows {
+  width: 100%;
+  height: 42px;
+  padding: 16px 0px 40px 0px;
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.new-account {
+  font-size: 11px;
+  border-style: none;
+  padding: 0px 28px;
+  border-radius: 18px;
+  background-color: #5243C0;
+  color: #ffffff;
+}
+
+/*--------------------------- Card Section --------------------------*/
+
+#cards {
+  background-color: whitesmoke;
+  border-radius: 8px;
+  padding: 0px 16px;
+  margin-bottom: 12px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#cards .checkbox {
+  width: 30px;
+  height: 30px;
+  background-image: url("https://cdn.glitch.com/966c8129-1d4b-4308-81b0-c7de7193c7d7%2Ftick-gray.png");
+}
+
+#cards:hover .checkbox {
+  background-image: url("https://cdn.glitch.com/966c8129-1d4b-4308-81b0-c7de7193c7d7%2Ftick-blue.png");
+}
+
+#cards:hover {
+  box-shadow: 0 10px 15px 0 lightgrey;
+  background-color: white;
+}
+
+.detail {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  width: 120px;
+  margin-left: -4px;
+}
+
+.date {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  color: lightgray;
+}
+
+#color-strip {
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.card1 {
+  background-color: #FED7DA;
+}
+
+.card2 {
+  background-color: #FD6534;
+}
+
+.card3 {
+  background-color: #9ED095;
+}
+
+.card4 {
+  background-color: #FFE4A0;
+}
